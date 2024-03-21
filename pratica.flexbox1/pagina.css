@@ -1,0 +1,47 @@
+/*1. Crie uma página HTML e um arquivo CSS, para alinhar os elementos
+conforme imagem abaixo. Utilize flexbox para realizar o alinhamento.*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+background-color: aquamarine;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%; /* Defina a largura desejada para o container */
+  margin: 0 auto; /* Define margem automática para centralizar horizontalmente */
+  text-align: center; /* Alinha o conteúdo do container ao centro */
+  
+    
+    
+    
+}
+
+
+
+.laranja{
+   
+    border-radius: 50px;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+ 
+    
+}
+
+.azul {
+    
+   
+    border-radius: 50px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    
+}

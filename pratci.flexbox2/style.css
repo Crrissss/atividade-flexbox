@@ -1,0 +1,52 @@
+/*2. Crie uma página HTML e um arquivo CSS,
+ para alinhar os elementos
+conforme imagem abaixo. Utilize flexbox para realizar o alinhamento.*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    width: 70%; /* Defina a largura desejada para o container */
+    margin: 100px; /* Define margem automática para centralizar horizontalmente */
+   
+}
+
+
+.quadrado{
+    width: 800px;
+  height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+}
+   
+
+
+
+
+.bolinha{
+    background-color: orangered;
+    border-radius: 100%;
+    height: 130px;
+    width: 100px;
+   
+    
+  
+}
+
+.azul{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
